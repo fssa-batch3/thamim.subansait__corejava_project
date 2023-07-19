@@ -4,15 +4,15 @@ import java.util.*;
 
 public class ArrayListTask {
 
-	public boolean findTaskByName(String name, ArrayList<Task> task) {
+	public static boolean findTaskByName(String name, ArrayList<Task> task) {
+		boolean res = false;
 		for (int i = 0; i < task.size(); i++) {
 
 			if (task.get(i).taskName.equals(name)) {
-				break;
+				res= true;		
 			}
-
 		}
-		return true;
+		return res;	
 	}
 
 	public static void main(String[] args) {

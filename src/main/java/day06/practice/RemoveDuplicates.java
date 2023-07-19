@@ -14,7 +14,7 @@ public class RemoveDuplicates {
 		
 		System.out.println(cityList.toString()); 
 		 Set<String> s = new LinkedHashSet<String>(cityList);  
-	        System.out.println(s);  
+	        System.out.println(s);
 
 	}
 
